@@ -1,7 +1,7 @@
 import axios from 'axios';
-import dotenv from 'dotenv'
+//import dotenv from 'dotenv'
 
-dotenv.config()
+//dotenv.config()
 
 const API_URL = process.env.REACT_APP_API_URL; // Cambia esta URL según la configuración de tu API
 /* const API_URL = {data :[{
