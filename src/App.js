@@ -6,15 +6,7 @@ import style from './styles/App.module.css'
 
 
 function App() {
-  let productos = [{
-    id: '01',
-    descripcion: 'descripcion del producto',
-    marca: 'nike',
-    categoria: 'zapatillas',
-    proveedor: 'el proveedor',
-    stock: '12',
-    precio: '15000'
-    }]
+
     const [products, setProducts] = useState([]);
 
     const handleSearch = async (searchTerm) => {
