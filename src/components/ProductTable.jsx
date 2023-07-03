@@ -1,10 +1,12 @@
 import React from 'react';
+import style from '../styles/ProductTable.module.css'
 
 
 function ProductTable({ products }) {
     console.log('products: ', products)
   return (
-    <table>
+    <div className={style.container}>
+    <table >
       <thead>
         <tr>
           <th>Descripción</th>
@@ -28,6 +30,7 @@ function ProductTable({ products }) {
         ))}
       </tbody>
     </table>
+    </div>
   );
 }
 

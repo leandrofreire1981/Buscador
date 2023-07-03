@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import style from '../styles/SearchBar.module.css'
 
 function SearchBar({ onSearch }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -12,7 +13,7 @@ function SearchBar({ onSearch }) {
   };
 
   return (
-    <div>
+    <div className={style.container}>
       <input
         type="text"
         placeholder="Buscar producto..."
