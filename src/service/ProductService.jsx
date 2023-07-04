@@ -71,10 +71,22 @@ function api_return(searchTerm) {
   searchTerm = searchTerm.toLowerCase()
   if(searchTerm === '') return {data: API_RES}
   return {data: API_RES.filter(r => (r.marca.includes(searchTerm) || r.categoria.includes(searchTerm) || r.proveedor.includes(searchTerm))) }
- 
 }
 
-const ProductService = {
+export const PriceService = {
+  searchProductsByPrice: (min, max) => {
+    if(min === '' && max === '')
+      return ProductService.searchProducts('')
+    let res = ProductService.searchProducts('')
+    if(min === '')
+      return {data: res.data.filter(r => r.precio <= max)}
+    if (max === '')
+      return {data: res.data.filter(r => (r.precio >= min))}
+    return {data: res.data.filter(r => (r.precio >= min && r.precio <= max))}
+  }
+}
+
+export const ProductService = {
   searchProducts: (searchTerm) => {
     //return axios.get(`${API_URL}/products/search?term=${searchTerm}`);
     return api_return(searchTerm)
@@ -98,4 +110,4 @@ const ProductService = {
   }
 };
 
-export default ProductService;
+
