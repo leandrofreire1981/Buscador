@@ -23,6 +23,10 @@ function App() {
         <h1 className={style.title}>Listado de Precios</h1>
         <SearchBar onSearch={handleSearch} />
         <ProductTable products={products} />
+        <div className={style.title}>Presione buscar con el cuadro de texto vacio para ver todos los resultados. </div>
+      <div className={style.title}>
+      Ingrese una palabra o parte de la palabra para buscar por marca, categoria o proveedor
+      </div>
       </div>
     );
 }
