@@ -4,3 +4,15 @@
     align-items: center;
     justify-content:space-around;
 }
+
+@media (max-width: 800px) {
+    .container {
+        margin-left: 10%;
+        width: 80%;
+        background-color: rgb(201, 194, 194);
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content:space-around;
+    }
+}

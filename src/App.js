@@ -32,13 +32,13 @@ function App() {
         <h1 className={style.title}>Listado de Precios</h1>
         <SearchBar onSearch={handleSearch} onSearchPrice={handleSearchPrice} />
         <ProductTable products={products} />
-        <div className={style.title}>
+        <div className={style.subTitle}>
           Presione buscar con el cuadro de texto vacio para ver todos los resultados. 
         </div>
-        <div className={style.title}>
-          Ingrese una palabra o parte de la palabra para buscar por marca, categoria o proveedor
+        <div className={style.subTitle}>
+          Ingrese una palabra o parte de la palabra para buscar por descripcion, marca, categoria o proveedor
         </div>
-        <div className={style.title}>
+        <div className={style.subTitle}>
           Ingese un precio minimo y/o un precio maximo para filtrar por precios
         </div>
       </div>
