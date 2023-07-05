@@ -70,7 +70,7 @@ const API_RES = [
 function api_return(searchTerm) {
   searchTerm = searchTerm.toLowerCase()
   if(searchTerm === '') return {data: API_RES}
-  return {data: API_RES.filter(r => (r.marca.includes(searchTerm) || r.categoria.includes(searchTerm) || r.proveedor.includes(searchTerm))) }
+  return {data: API_RES.filter(r => (r.descripcion.includes(searchTerm) || r.marca.includes(searchTerm) || r.categoria.includes(searchTerm) || r.proveedor.includes(searchTerm))) }
 }
 
 export const PriceService = {
