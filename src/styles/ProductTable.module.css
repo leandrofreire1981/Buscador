@@ -81,7 +81,7 @@ tbody tr:hover {
         display: flex;
         justify-self: end;
         border: solid 1px rgba(255, 255, 255, 0.2);
-        height: 400px;
+        height: 1000px;
         overflow: scroll;
     }
 
