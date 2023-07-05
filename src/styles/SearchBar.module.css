@@ -7,7 +7,7 @@
 
 @media (max-width: 800px) {
     .container {
-        margin-left: 20%;
+        margin-left: 25%;
         width: 80%;
         background-color: rgb(201, 194, 194);
         display: flex;

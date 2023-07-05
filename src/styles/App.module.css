@@ -9,13 +9,13 @@
 
 @media (max-width: 800px) {
     .title {
-        margin-left: 20%;
+        margin-left: 25%;
         margin-top: 10%; 
         width: 80%;
     }
 
     .subTitle {
-        margin-left: 20%;
+        margin-left: 25%;
         color:aliceblue; 
         width: 80%;
     }
