@@ -9,14 +9,14 @@
 
 @media (max-width: 800px) {
     .title {
-        margin-left: 10%;
-        margin-top: 10%;
+/*         margin-left: 10%;
+        margin-top: 10%; */
         width: 80%;
     }
 
     .subTitle {
-        margin-left: 10%;
-        color:aliceblue;
+/*         margin-left: 10%;
+        color:aliceblue; */
         width: 80%;
     }
 }
