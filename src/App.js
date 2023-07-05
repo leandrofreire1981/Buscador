@@ -29,7 +29,6 @@ function App() {
   
     return (
       <div>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <h1 className={style.title}>Listado de Precios</h1>
         <SearchBar onSearch={handleSearch} onSearchPrice={handleSearchPrice} />
         <ProductTable products={products} />
