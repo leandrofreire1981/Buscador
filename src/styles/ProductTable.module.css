@@ -77,7 +77,6 @@ tbody tr:hover {
     }
     .container {
         margin-left: 22%;
-        margin-right: 22%;
         width: 80%;
         display: flex;
         justify-self: end;
