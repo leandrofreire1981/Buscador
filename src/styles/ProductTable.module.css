@@ -60,7 +60,7 @@ tbody tr:hover {
 @media (max-width: 800px) {
     table {
         color: #fff;
-        font-size: 14px;
+        font-size: 18px;
         table-layout: fixed;
         border-collapse: collapse;
         
